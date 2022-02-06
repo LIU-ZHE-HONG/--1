@@ -1,0 +1,14 @@
+@import url("reset.css");
+@import url("index.css");
+
+
+/*thing-page*/
+.background{
+    background-color: #ffff00;
+    width: 1440px;
+    height: 310px;
+}
+
+section{
+    
+}
