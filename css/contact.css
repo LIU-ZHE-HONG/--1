@@ -1,14 +1,55 @@
 @import url("reset.css");
-@import url("index.css");
+@import url("logo.css");
 
 /*section*/
 section{
-    padding: 0 120px;
+    padding: 125px 120px 0;
     background-image: url(../img/background.png);
     width: 1200px;
+    
 }
+
+section h2{
+    display: block;
+    font-size: 48px;
+     font-weight: bold;
+     text-align: center;
+}
+section p1{
+    font-size: 24px;
+}
+
+section div{
+    display: flex;
+}
+section div img{
+    margin-right: 140px;
+}
+
+section div ul {
+    padding-top: 130px;
+}
+
 
 img{
     width: 460px;
     height: 675px;
+}
+
+/*footer*/
+footer{
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    width: 1440px;
+    height: 280px;
+    
+}
+
+footer p{
+    display: block;
+    width: 540px;
+    height: 250px;
+    font-size: 36px;
+    margin-left: 115px;
 }
