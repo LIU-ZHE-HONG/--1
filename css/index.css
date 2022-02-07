@@ -8,7 +8,7 @@ body{
 }
 
 
-
+  /*輪播*/
 
 .slider_container {
     width: 1440px;
@@ -140,7 +140,7 @@ section{
 
 .main .text1{
     margin-left: 20px;
-    font-family: 'roboto';
+    
     
 }
 .main .text1 h2{
