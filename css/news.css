@@ -3,18 +3,15 @@
 
  /*news page*/
 
- .background{
-    background-color: #ffff00;
-    width: 1440px;
-    height: 310px;
-  
-  }
-
-  /*section*/
+/*section*/
 section{
-  padding: 0 120px;
+  width: 1260px;
+}
+
+section .section-wrapper{
   background-image: url(../img/background.png);
-  width: 1200px;
+  width: 1140px;
+  margin: 0 60px;
   position: relative;
 }
 
@@ -71,7 +68,7 @@ h2{
 footer{
   background-color: #000000;
   color: #ffffff;
-  width: 1440px;
+  width: 1260px;
   height: 280px;
  
 }

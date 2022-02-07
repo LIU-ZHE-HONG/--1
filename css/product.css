@@ -3,18 +3,16 @@
 
 
 /*product-page*/
-.background{
-    background-color: #ffff00;
-    width: 1440px;
-    height: 310px;
-}
 
 section{
-    padding: 0 120px;
+    width: 1260px;
+}
+  
+section .section-wrapper{
     background-image: url(../img/background.png);
-    width: 1200px;
-    height: 1515px;
-
+    width: 1140px;
+    margin: 0 60px;
+    
 }
 
 /*image*/
@@ -43,8 +41,11 @@ section{
 .image .shoes1{
     margin: 0 70px;
 }
-.image .shoes1 div{
-    margin:245px 0;
+.image .shoes1 a{
+    display: block;
+    margin: 245px 0;
+    text-decoration: none;
+    color: #000000; 
 }
 
 .image img{
@@ -62,7 +63,7 @@ section{
     background-color: #000000;
     color: #ffffff;
     display: flex;
-    width: 1440px;
+    width: 1260px;
     height: 280px;
     
 }
@@ -72,5 +73,5 @@ footer p{
     width: 540px;
     height: 250px;
     font-size: 36px;
-    margin-left: 115px;
+    margin:0 auto;
 }

@@ -2,17 +2,19 @@
 @import url("logo.css");
 
 /*about-page*/
-.background{
-    background-color: #ffff00;
-    width: 1440px;
-    height: 310px;
-  }
-  /*section*/
+
+
+/*section*/
 section{
-    padding: 0 120px;
+    width: 1260px;
+  }
+  
+  section .section-wrapper{
     background-image: url(../img/background.png);
-    width: 1200px;
-}
+    width: 1140px;
+    margin: 0 60px;
+    position: relative;
+  }
 h2{
     background-color: blue;
     width: 380px;

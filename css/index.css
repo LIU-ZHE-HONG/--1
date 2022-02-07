@@ -1,18 +1,13 @@
 @import url("reset.css");
 @import url("logo.css");
-   /*index-page*/
-body{
-    font-family: arial,verdana,helvetica;
-    /* overflow-y: scroll;
-    overflow-x: hidden; */
-}
 
+/*index-page*/
 
   /*輪播*/
 
 .slider_container {
-    width: 1440px;
-    height: 600px;
+    width: 1260px;
+    height: 525px;
     position: relative;
 }
     
@@ -26,6 +21,10 @@ body{
 .slider_container div {
     -webkit-animation: round 25s linear infinite;
     animation: round 25s linear infinite;
+}
+
+.slider_container img{
+    width: 1260px;
 }
     
 @-webkit-keyframes round {
@@ -118,9 +117,13 @@ animation-delay: 15s;
 
     /*section*/
 section{
-    padding: 0 120px;
+    width: 1260px;
+}
+
+section .section-wrapper{
     background-image: url(../img/background.png);
-    width: 1200px;
+    width: 1140px;
+    margin: 0 60px;
 }
 
 
@@ -182,6 +185,7 @@ h2{
 .image img{
     display: block;
     margin: 0 auto;
+    width: 200px;
 }
 
 .image p{
@@ -194,10 +198,12 @@ h2{
 .about{
     display: flex;
     margin-top: 115px;
+    margin-bottom: 50px;
 
 }
 .about div{
     text-align: center;
+    margin: 0 auto;
 }
 
 .about h2{
@@ -226,6 +232,7 @@ h2{
 .about img{
     width: 480px;
     height: 445px;
+    margin: 0 auto;
 }
 
    /*footer*/
@@ -243,7 +250,7 @@ footer p{
     width: 540px;
     height: 250px;
     font-size: 36px;
-    margin-left: 115px;
+    margin-left: 55px;
 }
 
 
