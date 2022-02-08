@@ -9,7 +9,7 @@ section{
     width: 1260px;
 }
   
-section .section-wrapper{
+section.section-wrapper{
     background-image: url(../img/background.png);
     width: 1140px;
     margin: 0 60px;

@@ -3,6 +3,14 @@
 
 
 /*table*/
+.basketball{
+	background-image: url(../img/basketball-count.png);
+    width: 1140px;
+    margin: 0 60px;
+    
+}
+
+
 table{
 	width: 700px;
 	margin:0 auto;
@@ -29,4 +37,22 @@ td{
 	border: 1px solid #ccc;
 	padding: 20px;
 	text-align: center;
+}
+
+/*footer*/
+footer{
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    width: 1260px;
+    height: 280px;
+    
+}
+
+footer p{
+    display: block;
+    width: 540px;
+    height: 250px;
+    font-size: 36px;
+    margin: 0 auto;
 }
